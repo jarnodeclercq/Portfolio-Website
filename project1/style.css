@@ -1,0 +1,265 @@
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-bottom: 50px;
+}
+
+/* navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #030051;
+  color: #ffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+.logo {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.avatar {
+  background-color: blue;
+  padding: 6px 10px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+.navbar a:hover {
+  opacity: 0.4;
+}
+/* einde navbar */
+body {
+  font-size: large;
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.tekst1 {
+  flex: 1;
+  padding-left: 60px;
+}
+
+.subtitel {
+  color: darkblue;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.tekst1 h1 {
+  font-family: "Inter", Times, serif;
+  color: #030051;
+  font-size: 42px;
+}
+.tekst1 p {
+  font-family: "Inter", Times, serif;
+  color: black;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+.foto1 {
+  text-align: center;
+  padding-top: 80px;
+  padding-right: 50px;
+}
+.foto1 img {
+  width: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  border-width: 20px;
+  border: 6px solid #030051;
+  margin-bottom: 50px;
+}
+/* einde pag 1 */
+
+.body2 {
+  background-color: lightgray;
+  font-family: "Inter", Times, serif;
+  font-size: large;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70svh;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.flex-container2 > div {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  height: 150px;
+  border-radius: 20px;
+  border: #030051 solid 5px;
+}
+
+.inleidingCV {
+  text-align: left;
+  padding-top: 100px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+}
+.inleidingCVflex {
+  display: flex;
+  gap: 100px;
+  margin-inline: 70px;
+  gap: 200px;
+}
+.inleidingCVflex img {
+  width: 200px;
+  border: #030051 solid 5px;
+  border-radius: 20px;
+}
+
+/* /einde pagina 2 */
+.body3 {
+  font-family: "Inter", sans-serif;
+  font-size: large;
+}
+
+.inleidingErvaringen {
+  text-align: left;
+  padding-top: 100px;
+  padding-bottom: 5px;
+  max-width: 700px;
+  padding-left: 50px;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: stretch;
+}
+
+.grid-container3 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-top: 70px;
+  margin-left: 0px;
+  background-color: lightgray;
+  padding: 40px 50px;
+  border-radius: 20px;
+  border: #030051 solid 5px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+/* einde pagina 3 */
+
+.body4 {
+  font-family: "Inter", Times, serif;
+  font-size: large;
+  background-color: lightgray;
+}
+
+.inleidingHobby {
+  text-align: left;
+  padding-top: 100px;
+  padding-bottom: 5px;
+  max-width: 700px;
+  padding-inline: 100px;
+}
+.grid-container4 {
+  display: grid;
+  grid-template-columns: 3fr;
+  gap: 24px;
+}
+.grid-container4 > div {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1100px;
+  margin-top: 70px;
+  background-color: white;
+  padding-inline: 100px;
+  border-radius: 20px;
+  border: #030051 solid 5px;
+}
+
+.hero {
+  background-image: url("img/Foto\ Koers\ 2.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+}
+.hero2 {
+  background-image: url("img/Foto\ Koers.jpg");
+  width: 100%;
+  height: 800px;
+  background-position: center;
+}
+/* einde pagina 4 */
+
+.inleidingContact {
+  text-align: center;
+  padding-top: 100px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.containerContactForm {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 5px solid #030051;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  resize: vertical;
+  background-color: lightgrey;
+}
+
+input[type="submit"] {
+  background-color: #030051;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: lightgrey;
+}
