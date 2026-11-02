@@ -1,0 +1,14 @@
+
+.bg-navigatiekleur{
+  background-color: #030051
+}
+
+.banner{
+    background-image: url("/img/pexels-marek-pavlik-1929759405-37269544\ \(1\).jpg");
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+ 
+}
